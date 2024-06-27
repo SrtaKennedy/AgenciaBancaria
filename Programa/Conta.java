@@ -1,7 +1,7 @@
-import Utilitarios.Utils;
+import utilitarios.Utils;
 
 public class Conta {
-    private static int contadorDeContas;
+    private static int contadorDeContas = 1;
 
     private int numeroDaConta;
     private Pessoa pessoa;

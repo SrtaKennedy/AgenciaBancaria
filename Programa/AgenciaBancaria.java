@@ -77,7 +77,7 @@ public class AgenciaBancaria {
     private static Conta encontrarConta(int numeroDaConta) {
         Conta conta = null;
         if (contasBancarias.size() > 0) {
-            for(Conta c: contasBancarias) {
+            for(Conta c : contasBancarias) {
                 if (c.getNumeroDaConta() == numeroDaConta) {
                     conta = c;
                 }
