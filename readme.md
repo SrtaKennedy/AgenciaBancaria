@@ -16,13 +16,19 @@ Este projeto é uma aplicação de Agência Bancária onde é possível cadastra
 
 ## Estrutura do Projeto
 
-AgenciaBancaria/
-├── Programa/
-│   ├── AgenciaBancaria.java
-│   ├── Conta.java
-│   └── Pessoa.java
-├── Utilitarios/
-│   └── Utils.java
-├── .gitignore
-├── README.md
+1. AgenciaBancaria
+   - Programa
+     - AgenciaBancaria.java
+     - Conta.java
+     - Pessoa.java
+2. Utilitarios
+   - Utils.java
+
+Contribuição (Se quiser)
+1. Faça um fork do projeto.
+2. Crie uma nova branch: git checkout -b minha-nova-funcionalidade
+3. Faça suas alterações e commit: git commit -m 'Adiciona nova funcionalidade'
+4. Envie para o branch original: git push origin minha-nova-funcionalidade
+5. Crie uma solicitação de pull.
+
 
